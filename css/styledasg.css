@@ -1,0 +1,274 @@
+/* no*/
+.imglogo {
+  width: 295px;
+}
+
+.imglogo {
+  width: 100%;
+}
+
+.body {
+  font-size: 0.875rem;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+/*
+   * Navbar
+   */
+.nav {
+  padding-top: 40px;
+}
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white
+}
+
+.navegador {
+  background-color: rgb(175, 30, 45);
+}
+
+#nivel2:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+.clickeable {
+  cursor: pointer;
+}
+
+/* Estilos de verSolicitud*/
+
+.informacion-solicitud {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.group-solicitud {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.solicitud-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+.solicitud-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.solicitud-details {
+  margin-left: 1rem;
+}
+
+.solicitud-title {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.solicitud-title-text {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.solicitud-info {
+  margin-bottom: 0.5rem;
+}
+
+.solicitud-info span {
+  font-weight: bold;
+}
+
+.solicitud-description {
+  white-space: pre-wrap;
+}
+
+.bg-success {
+  text-align: center;
+}
+
+.bg-danger {
+  text-align: center;
+}
+
+.bg-warning {
+  text-align: center;
+}
+
+.bg-default {
+  text-align: center;
+}
+
+.bg-primary {
+  text-align: center;
+}
+
+.bg-info {
+  text-align: center;
+}
+
+.bg-secondary {
+  text-align: center;
+}
+
+#statusSolicitud{
+  border-radius: 10px;
+}
+
+#statusSolicitud:hover {
+  filter: brightness(80%);
+  transition: filter 0.3s ease;
+}
+
+#prioridadSolicitud{
+  border-radius: 10px;
+}
+
+#prioridadSolicitud:hover {
+  filter: brightness(80%);
+  transition: filter 0.3s ease;
+}
+
+#btnComentario {
+  text-align: center;
+  border-radius: 10px;
+  padding: 3px;
+  transition: background-color 0.3s ease;
+  background-color: antiquewhite;
+}
+
+#btnComentario:hover {
+  background-color: rgb(187, 173, 154);
+}
+
+/* Panel de notificaciones*/
+
+#imgNotificaciones:hover {
+  filter: brightness(80%);
+  transition: filter 0.3s ease;
+}
+
+/**/
+  #alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .alert.success {
+    background-color: #4CAF50;
+  }
+
+  .alert.error {
+    background-color: #FF5733;
+  }
+
+
+  /**/
+  
+  
